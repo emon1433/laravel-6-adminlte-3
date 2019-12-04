@@ -12,16 +12,12 @@
     <div class="wrapper">
         @include('theme.partials.navbar')
         @include('theme.partials.sidebar')
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <b>Hello</b>
-        <!-- /.control-sidebar -->
+        <div class="content-wrapper">
+
+        </div>
         @include('theme.partials.footer')
     </div>
     <!-- ./wrapper -->
-
     @include('theme.partials.js')
 </body>
 
