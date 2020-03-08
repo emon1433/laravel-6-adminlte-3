@@ -21,7 +21,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="/"><b>Untitled</b>IDEA</a>
+            <a href="{{ route('welcome') }}"><b>{{ config('appConstants.name-prefix') }}</b>{{ config('appConstants.name-suffix') }}</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
